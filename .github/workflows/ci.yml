@@ -1,5 +1,4 @@
 name: Run in-toto tests and linter
-
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
@@ -20,7 +19,7 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
-    steps:
+   steps:
       - name: Checkout in-toto
         uses: actions/checkout@v2
 
